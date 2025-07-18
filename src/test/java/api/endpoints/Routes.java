@@ -32,5 +32,13 @@ public class Routes {
 	
 	//we will create Pet module URLs
 	
+	public static String post_pet_url = base_url+"/pet";
+	
+	public static String get_pet_url = base_url+"/pet/{petId}";
+	
+	public static String update_pet_url = base_url+"/pet";
+	
+	public static String delete_pet_url = base_url+"/pet/{petId}";
+	
 
 }
