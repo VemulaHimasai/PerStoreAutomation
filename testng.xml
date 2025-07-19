@@ -9,12 +9,12 @@
        <!--   <class name="api.test.UserTests"/> -->
       <!--   <class name="api.test.UserTests2"/>  -->
       <!--    <class name="api.test.DDTests"/>  -->
-        <class name="api.test.PetTests"></class>
-        <class name="api.test.PetTests2"></class>  
-        <class name="api.test.DDTestsPet"></class> 
-       <!--   <class name="api.test.StoreTests"></class> -->
-      <!--   <class name="api.test.StoreTests2"></class> --> 
-      <!--   <class name="api.test.DDTestsStore"></class>  -->
+       <!--   <class name="api.test.PetTests"></class> -->
+       <!--   <class name="api.test.PetTests2"></class>  -->
+       <!--   <class name="api.test.DDTestsPet"></class> -->
+         <class name="api.test.StoreTests"></class> 
+        <class name="api.test.StoreTests2"></class> 
+         <class name="api.test.DDTestsStore"></class>  
     </classes>
   </test> <!-- PetTests -->
 </suite> <!-- PetSuite -->

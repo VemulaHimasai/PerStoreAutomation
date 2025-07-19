@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-19T19:53:37 IST" name="PetSuite" finished-at="2025-07-19T19:54:05 IST" duration-ms="28168">
+  <suite started-at="2025-07-19T20:05:25 IST" name="PetSuite" finished-at="2025-07-19T20:05:52 IST" duration-ms="26896">
     <groups>
     </groups>
-    <test started-at="2025-07-19T19:53:37 IST" name="PetTests" finished-at="2025-07-19T19:54:05 IST" duration-ms="28168">
-      <class name="api.test.DDTestsPet">
-        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:1, instance:api.test.DDTestsPet@3cd3e762]" started-at="2025-07-19T19:53:59 IST" name="testCreatePet" data-provider="petData" finished-at="2025-07-19T19:54:00 IST" duration-ms="1215" status="PASS">
+    <test started-at="2025-07-19T20:05:25 IST" name="PetTests" finished-at="2025-07-19T20:05:52 IST" duration-ms="26896">
+      <class name="api.test.StoreTests2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.StoreTests2@179ece50]" started-at="2025-07-19T20:05:38 IST" name="setUp" finished-at="2025-07-19T20:05:39 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPostStore()[pri:1, instance:api.test.StoreTests2@179ece50]" started-at="2025-07-19T20:05:39 IST" name="testPostStore" finished-at="2025-07-19T20:05:40 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostStore -->
+        <test-method signature="testGetStoreById()[pri:2, instance:api.test.StoreTests2@179ece50]" started-at="2025-07-19T20:05:40 IST" name="testGetStoreById" finished-at="2025-07-19T20:05:41 IST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStoreById -->
+        <test-method signature="testDeleteStoreById()[pri:3, instance:api.test.StoreTests2@179ece50]" started-at="2025-07-19T20:05:41 IST" name="testDeleteStoreById" finished-at="2025-07-19T20:05:44 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStoreById -->
+      </class> <!-- api.test.StoreTests2 -->
+      <class name="api.test.DDTestsStore">
+        <test-method signature="testCreateOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:1, instance:api.test.DDTestsStore@3b0090a4]" started-at="2025-07-19T20:05:46 IST" name="testCreateOrder" data-provider="storeData" finished-at="2025-07-19T20:05:47 IST" duration-ms="1230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,49 +34,39 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Max]]>
+                <![CDATA[12]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[3]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Dog]]>
+                <![CDATA[2025-07-18T13:10:00Z]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[available]]>
+                <![CDATA[placed]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[101]]>
+                <![CDATA[TRUE]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[friendly]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[https://example.com/max.jpg]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[org.testng.TestRunner@34c31a34]]>
+                <![CDATA[org.testng.TestRunner@78e387d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreatePet -->
-        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:1, instance:api.test.DDTestsPet@3cd3e762]" started-at="2025-07-19T19:54:00 IST" name="testCreatePet" data-provider="petData" finished-at="2025-07-19T19:54:01 IST" duration-ms="1252" status="PASS">
+        </test-method> <!-- testCreateOrder -->
+        <test-method signature="testCreateOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:1, instance:api.test.DDTestsStore@3b0090a4]" started-at="2025-07-19T20:05:47 IST" name="testCreateOrder" data-provider="storeData" finished-at="2025-07-19T20:05:48 IST" duration-ms="1246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,49 +75,39 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Bella]]>
+                <![CDATA[34]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[20]]>
+                <![CDATA[1]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Cat]]>
+                <![CDATA[2025-07-18T15:30:00Z]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[pending]]>
+                <![CDATA[delivered]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[102]]>
+                <![CDATA[FALSE]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[cute]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[https://example.com/bella.jpg]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[org.testng.TestRunner@34c31a34]]>
+                <![CDATA[org.testng.TestRunner@78e387d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreatePet -->
-        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:1, instance:api.test.DDTestsPet@3cd3e762]" started-at="2025-07-19T19:54:01 IST" name="testCreatePet" data-provider="petData" finished-at="2025-07-19T19:54:02 IST" duration-ms="1232" status="PASS">
+        </test-method> <!-- testCreateOrder -->
+        <test-method signature="testCreateOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:1, instance:api.test.DDTestsStore@3b0090a4]" started-at="2025-07-19T20:05:48 IST" name="testCreateOrder" data-provider="storeData" finished-at="2025-07-19T20:05:50 IST" duration-ms="1240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,104 +116,68 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Charlie]]>
+                <![CDATA[56]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[30]]>
+                <![CDATA[5]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Bird]]>
+                <![CDATA[2025-07-19T09:00:00+05:30]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[sold]]>
+                <![CDATA[approved]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[103]]>
+                <![CDATA[TRUE]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[talky]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[https://example.com/charlie.jpg]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[org.testng.TestRunner@34c31a34]]>
+                <![CDATA[org.testng.TestRunner@78e387d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreatePet -->
-        <test-method signature="testDeletePetById(org.testng.ITestContext)[pri:2, instance:api.test.DDTestsPet@3cd3e762]" started-at="2025-07-19T19:54:02 IST" name="testDeletePetById" finished-at="2025-07-19T19:54:05 IST" duration-ms="2442" status="PASS">
+        </test-method> <!-- testCreateOrder -->
+        <test-method signature="testDeleteOrderById(org.testng.ITestContext)[pri:2, instance:api.test.DDTestsStore@3b0090a4]" started-at="2025-07-19T20:05:50 IST" name="testDeleteOrderById" finished-at="2025-07-19T20:05:52 IST" duration-ms="2385" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@34c31a34]]>
+                <![CDATA[org.testng.TestRunner@78e387d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeletePetById -->
-      </class> <!-- api.test.DDTestsPet -->
-      <class name="api.test.PetTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.PetTests@5bda8e08]" started-at="2025-07-19T19:53:37 IST" name="setUp" finished-at="2025-07-19T19:53:39 IST" duration-ms="1675" status="PASS">
+        </test-method> <!-- testDeleteOrderById -->
+      </class> <!-- api.test.DDTestsStore -->
+      <class name="api.test.StoreTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.StoreTests@3eb738bb]" started-at="2025-07-19T20:05:26 IST" name="setUp" finished-at="2025-07-19T20:05:32 IST" duration-ms="6602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDeletePetbyId()[pri:0, instance:api.test.PetTests@5bda8e08]" started-at="2025-07-19T19:53:39 IST" name="testDeletePetbyId" finished-at="2025-07-19T19:53:45 IST" duration-ms="5931" status="PASS">
+        <test-method signature="testPostStore()[pri:1, instance:api.test.StoreTests@3eb738bb]" started-at="2025-07-19T20:05:32 IST" name="testPostStore" finished-at="2025-07-19T20:05:34 IST" duration-ms="1498" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeletePetbyId -->
-        <test-method signature="testUpdatePet()[pri:0, instance:api.test.PetTests@5bda8e08]" started-at="2025-07-19T19:53:45 IST" name="testUpdatePet" finished-at="2025-07-19T19:53:47 IST" duration-ms="2037" status="PASS">
+        </test-method> <!-- testPostStore -->
+        <test-method signature="testGetStoreById()[pri:2, instance:api.test.StoreTests@3eb738bb]" started-at="2025-07-19T20:05:34 IST" name="testGetStoreById" finished-at="2025-07-19T20:05:35 IST" duration-ms="1330" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testPostPet()[pri:1, instance:api.test.PetTests@5bda8e08]" started-at="2025-07-19T19:53:47 IST" name="testPostPet" finished-at="2025-07-19T19:53:48 IST" duration-ms="1197" status="PASS">
+        </test-method> <!-- testGetStoreById -->
+        <test-method signature="testDeleteStoreById()[pri:3, instance:api.test.StoreTests@3eb738bb]" started-at="2025-07-19T20:05:35 IST" name="testDeleteStoreById" finished-at="2025-07-19T20:05:38 IST" duration-ms="2328" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostPet -->
-        <test-method signature="testGetPetById()[pri:2, instance:api.test.PetTests@5bda8e08]" started-at="2025-07-19T19:53:48 IST" name="testGetPetById" finished-at="2025-07-19T19:53:49 IST" duration-ms="1236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPetById -->
-      </class> <!-- api.test.PetTests -->
-      <class name="api.test.PetTests2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.PetTests2@3b0090a4]" started-at="2025-07-19T19:53:49 IST" name="setUp" finished-at="2025-07-19T19:53:50 IST" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testDeletePetbyId()[pri:0, instance:api.test.PetTests2@3b0090a4]" started-at="2025-07-19T19:53:50 IST" name="testDeletePetbyId" finished-at="2025-07-19T19:53:52 IST" duration-ms="2449" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeletePetbyId -->
-        <test-method signature="testUpdatePet()[pri:0, instance:api.test.PetTests2@3b0090a4]" started-at="2025-07-19T19:53:52 IST" name="testUpdatePet" finished-at="2025-07-19T19:53:53 IST" duration-ms="1234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePet -->
-        <test-method signature="testPostPet()[pri:1, instance:api.test.PetTests2@3b0090a4]" started-at="2025-07-19T19:53:53 IST" name="testPostPet" finished-at="2025-07-19T19:53:55 IST" duration-ms="1197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostPet -->
-        <test-method signature="testGetPetById()[pri:2, instance:api.test.PetTests2@3b0090a4]" started-at="2025-07-19T19:53:55 IST" name="testGetPetById" finished-at="2025-07-19T19:53:56 IST" duration-ms="1254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPetById -->
-      </class> <!-- api.test.PetTests2 -->
+        </test-method> <!-- testDeleteStoreById -->
+      </class> <!-- api.test.StoreTests -->
     </test> <!-- PetTests -->
   </suite> <!-- PetSuite -->
 </testng-results>
