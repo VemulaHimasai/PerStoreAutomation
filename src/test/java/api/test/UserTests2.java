@@ -132,7 +132,7 @@ public class UserTests2 {
 			
 			//checking data after update
 			
-			Response responseAfterupdate=UserEndPoints.readUser(userPayload.getUsername());
+			Response responseAfterupdate=UserEndPoints2.readUser(userPayload.getUsername());
 			//response.then().log().all();
 			Assert.assertEquals(responseAfterupdate.getStatusCode(), 200);
 			
@@ -171,32 +171,63 @@ public class UserTests2 {
 	public void testDeleteUserByName() throws InterruptedException {
 		
 		logger.info("**********Deleting User***********");
+		
+		   int maxRetries = 5;
+		    int waitTimeMs = 1000;
+		    Response deleteResponse = null;
+		    
+		 // Step 1: Retry delete until success (200) or limit reached
+		    for (int i = 1; i <= maxRetries; i++) {
+		        deleteResponse = UserEndPoints2.deleteUser(userPayload.getUsername());
+		        if (deleteResponse.getStatusCode() == 200) {
+		            break;
+		        }
+		        System.out.println("Attempt " + i + ": DELETE failed, status: " + deleteResponse.getStatusCode());
+		        Thread.sleep(waitTimeMs);
+		    }
+		    
+		    Assert.assertEquals(deleteResponse.getStatusCode(), 200, "Failed to delete user after retries");
+		    
+		 // Step 2: Retry GET until 404 is returned
+		    Response responseAfterDelete = null;
+		    for (int i = 1; i <= maxRetries; i++) {
+		        responseAfterDelete = UserEndPoints2.readUser(userPayload.getUsername());
+		        if (responseAfterDelete.getStatusCode() == 404) {
+		            break;
+		        }
+		        System.out.println("Attempt " + i + ": User still exists, status: " + responseAfterDelete.getStatusCode());
+		        Thread.sleep(waitTimeMs);
+		    }
+		    logger.info("************User Deleted***********");
+
+		    // Step 3: Final assertion
+		    Assert.assertEquals(responseAfterDelete.getStatusCode(), 404, "User was not deleted successfully after retries.");
 	    
-	    // Step 1: Delete the user
-	    Response response = UserEndPoints2.deleteUser(userPayload.getUsername());
-	    Assert.assertEquals(response.getStatusCode(), 200);
-
-	    // Step 2: Retry reading the user until 404 is received or retry limit is reached
-	    int maxRetries = 5;
-	    int waitTimeMs = 1000;
-	    Response responseAfterDelete = null;
-
-	    for (int i = 1; i <= maxRetries; i++) {
-	        responseAfterDelete = UserEndPoints2.readUser(userPayload.getUsername());
-	        int statusCode = responseAfterDelete.getStatusCode();
-
-	        if (statusCode == 404) {
-	            break;
-	        }
-
-	        System.out.println("Attempt " + i + ": User still exists, status: " + statusCode);
-	        Thread.sleep(waitTimeMs);
-	    }
-	    
-	    logger.info("************User Deleted***********");
-
-	    // Step 3: Final assertion
-	    Assert.assertEquals(responseAfterDelete.getStatusCode(), 404, "User was not deleted successfully after retries.");
+//	    // Step 1: Delete the user
+//	    Response response = UserEndPoints2.deleteUser(userPayload.getUsername());
+//	    Assert.assertEquals(response.getStatusCode(), 200);
+//
+//	    // Step 2: Retry reading the user until 404 is received or retry limit is reached
+//	    int maxRetries = 5;
+//	    int waitTimeMs = 1000;
+//	    Response responseAfterDelete = null;
+//
+//	    for (int i = 1; i <= maxRetries; i++) {
+//	        responseAfterDelete = UserEndPoints2.readUser(userPayload.getUsername());
+//	        int statusCode = responseAfterDelete.getStatusCode();
+//
+//	        if (statusCode == 404) {
+//	            break;
+//	        }
+//
+//	        System.out.println("Attempt " + i + ": User still exists, status: " + statusCode);
+//	        Thread.sleep(waitTimeMs);
+//	    }
+//	    
+//	    logger.info("************User Deleted***********");
+//
+//	    // Step 3: Final assertion
+//	    Assert.assertEquals(responseAfterDelete.getStatusCode(), 404, "User was not deleted successfully after retries.");
 	}
 
 }

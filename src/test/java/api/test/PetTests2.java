@@ -106,7 +106,7 @@ public class PetTests2 {
 		Response response = RetryUtilPet.retryGetPet(petPayload.getId(), 5, 2000);
 		
 		response.then().log().all();
-	    Assert.assertEquals(response.getStatusCode(), 200, "User not found after retrying.");
+	    Assert.assertEquals(response.getStatusCode(), 200, "Pet not found after retrying.");
 	    
 	    System.out.println("Executing [MethodName] for Pet ID: " + petPayload.getId());
 	    
@@ -179,7 +179,7 @@ public class PetTests2 {
 	    Response responseAfterDelete = null;
 	    
 	    for (int i = 1; i <= maxRetries; i++) {
-	        responseAfterDelete = PetEndPoints.readPet(petId);
+	        responseAfterDelete = PetEndPoints2.readPet(petId);
 	        int statusCode = responseAfterDelete.getStatusCode();
 
 	        System.out.println("Retry #" + i + ", Status: " + statusCode);

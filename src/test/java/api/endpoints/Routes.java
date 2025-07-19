@@ -27,6 +27,12 @@ public class Routes {
 	
 	//we will create Store module URLs
 	
+	public static String post_store_url = base_url+"/store/order";
+	
+	public static String get_store_url = base_url+"/store/order/{orderId}";
+	
+	public static String delete_store_url = base_url+"/store/order/{orderId}";
+	
 	
 	//Pet module
 	

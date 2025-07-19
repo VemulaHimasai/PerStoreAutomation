@@ -50,7 +50,8 @@ public class DDTestsPet {
 	public void testDeletePetById(ITestContext context) throws InterruptedException {
 		
 		 Long id = (Long) context.getAttribute("created_pet_id");
-		
+		 Assert.assertNotNull(id, "Pet ID is null. Pet may not have been created.");
+		 
 		System.out.println("Deleting Pet ID: " + id);
 		
 		Response response = PetEndPoints.deletePet(id);
