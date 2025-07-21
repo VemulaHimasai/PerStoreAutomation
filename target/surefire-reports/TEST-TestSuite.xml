@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="89.202" tests="24" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="101.732" tests="36" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire956399353900963740\surefirebooter-20250721141943388_3.jar C:\Users\hp\AppData\Local\Temp\surefire956399353900963740 2025-07-21T14-19-43_058-jvmRun1 surefire-20250721141943388_1tmp surefire_0-20250721141943388_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire1778748904478130180\surefirebooter-20250721152713193_3.jar C:\Users\hp\AppData\Local\Temp\surefire1778748904478130180 2025-07-21T15-27-12_883-jvmRun1 surefire-20250721152713193_1tmp surefire_0-20250721152713193_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hp\eclipse-workspace\PetStoreAutomation\target\test-classes;C:\Users\hp\eclipse-workspace\PetStoreAutomation\target\classes;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\hp\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\hp\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\hp\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\hp\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\hp\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\hp\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\hp\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\hp\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\hp\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire956399353900963740\surefirebooter-20250721141943388_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire1778748904478130180\surefirebooter-20250721152713193_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -58,11 +58,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPostUser" classname="api.test.UserTests" time="5.031">
-    <system-out><![CDATA[Generated username: earnest.buckridge
-Posting user: earnest.buckridge
+  <testcase name="testPostUser" classname="api.test.UserTests" time="5.529">
+    <system-out><![CDATA[Generated username: amado.johns
+Posting user: amado.johns
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:49:52 GMT
+Date: Mon, 21 Jul 2025 09:57:22 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -74,7 +74,7 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "665698670"
+    "message": "1558103808"
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
@@ -82,11 +82,12 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetUserByName" classname="api.test.UserTests" time="2.01">
-    <system-out><![CDATA[Getting user: earnest.buckridge
-Attempt 1: GET /user/earnest.buckridge => 200
+  <testcase name="testGetUserByName" classname="api.test.UserTests" time="4.506">
+    <system-out><![CDATA[Getting user: amado.johns
+Attempt 1: GET /user/amado.johns => 404
+Attempt 2: GET /user/amado.johns => 200
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:49:54 GMT
+Date: Mon, 21 Jul 2025 09:57:27 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -96,32 +97,35 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 665698670,
-    "username": "earnest.buckridge",
-    "firstName": "Denna",
-    "lastName": "Kris",
-    "email": "lilly.reinger@example.com",
-    "password": "44sa4",
-    "phone": "089-288-3942",
+    "id": 1558103808,
+    "username": "amado.johns",
+    "firstName": "Mario",
+    "lastName": "Beatty",
+    "email": "sherwood.reilly@example.com",
+    "password": "tmlf7",
+    "phone": "1-327-323-6272",
     "userStatus": 1
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUserByName" classname="api.test.UserTests" time="4.991">
-    <system-out><![CDATA[Updating user: earnest.buckridge
+  <testcase name="testUpdateUserByName" classname="api.test.UserTests" time="4.984">
+    <system-out><![CDATA[Updating user: amado.johns
 {
     "code": 200,
     "type": "unknown",
-    "message": "665698670"
+    "message": "1558103808"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByName" classname="api.test.UserTests" time="2.494"/>
-  <testcase name="testPostUser" classname="api.test.UserTests2" time="1.236">
-    <system-out><![CDATA[Generated username: camellia.wolff
-Posting user: camellia.wolff
+  <testcase name="testDeleteUserByName" classname="api.test.UserTests" time="4.636">
+    <system-out><![CDATA[Attempt 1: User still exists, status: 200
+]]></system-out>
+  </testcase>
+  <testcase name="testPostUser" classname="api.test.UserTests2" time="1.198">
+    <system-out><![CDATA[Generated username: emery.lowe
+Posting user: emery.lowe
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:03 GMT
+Date: Mon, 21 Jul 2025 09:57:38 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -133,17 +137,15 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "921963890"
+    "message": "1802242940"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUserByName" classname="api.test.UserTests2" time="7.852">
-    <system-out><![CDATA[Getting user: camellia.wolff
-Attempt 1: GET /user/camellia.wolff => 404
-Attempt 2: GET /user/camellia.wolff => 404
-Attempt 3: GET /user/camellia.wolff => 200
+  <testcase name="testGetUserByName" classname="api.test.UserTests2" time="1.222">
+    <system-out><![CDATA[Getting user: emery.lowe
+Attempt 1: GET /user/emery.lowe => 200
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:10 GMT
+Date: Mon, 21 Jul 2025 09:57:39 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -153,157 +155,407 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 921963890,
-    "username": "camellia.wolff",
-    "firstName": "Lupe",
-    "lastName": "Goldner",
-    "email": "vania.huel@example.com",
-    "password": "8busu",
-    "phone": "598-109-6968",
+    "id": 1802242940,
+    "username": "emery.lowe",
+    "firstName": "Josefine",
+    "lastName": "Rau",
+    "email": "marine.ebert@example.com",
+    "password": "5olfs",
+    "phone": "(993) 981-9269",
     "userStatus": 1
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUserByName" classname="api.test.UserTests2" time="2.486">
-    <system-out><![CDATA[Updating user: camellia.wolff
+  <testcase name="testUpdateUserByName" classname="api.test.UserTests2" time="2.298">
+    <system-out><![CDATA[Updating user: emery.lowe
 {
     "code": 200,
     "type": "unknown",
-    "message": "921963890"
+    "message": "1802242940"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByName" classname="api.test.UserTests2" time="6.981">
-    <system-out><![CDATA[Attempt 1: DELETE failed, status: 404
-Attempt 2: DELETE failed, status: 404
-]]></system-out>
-  </testcase>
-  <testcase name="testPostUser[1010, testuser1, John, Canedy, a@gmail.com, test@1, 1234567897](1)" classname="api.test.DDTests" time="2.267">
+  <testcase name="testDeleteUserByName" classname="api.test.UserTests2" time="2.401"/>
+  <testcase name="testPostUser[1010, testuser1, John, Canedy, a@gmail.com, test@1, 1234567897](1)" classname="api.test.DDTests" time="2.199">
     <system-out><![CDATA[Posting user: testuser1
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser[1020, testuser2, Kim, Kom, b@gmail.com, test@2, 1234567897](2)" classname="api.test.DDTests" time="2.246">
+  <testcase name="testPostUser[1020, testuser2, Kim, Kom, b@gmail.com, test@2, 1234567897](2)" classname="api.test.DDTests" time="2.195">
     <system-out><![CDATA[Posting user: testuser2
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser[1030, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897](3)" classname="api.test.DDTests" time="2.185">
+  <testcase name="testPostUser[1030, testuser3, Smith, Steve, c@gmail.com, test@3, 1234567897](3)" classname="api.test.DDTests" time="2.229">
     <system-out><![CDATA[Posting user: testuser3
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByname[testuser1](1)" classname="api.test.DDTests" time="1.301">
+  <testcase name="testDeleteUserByname[testuser1](1)" classname="api.test.DDTests" time="1.24">
     <system-out><![CDATA[Attempt 1: DELETE /user/testuser1 => 200
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByname[testuser2](2)" classname="api.test.DDTests" time="5.681">
-    <system-out><![CDATA[Attempt 1: DELETE /user/testuser2 => 404
-Attempt 2: DELETE /user/testuser2 => 404
-Attempt 3: DELETE /user/testuser2 => 200
+  <testcase name="testDeleteUserByname[testuser2](2)" classname="api.test.DDTests" time="1.361">
+    <system-out><![CDATA[Attempt 1: DELETE /user/testuser2 => 200
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByname[testuser3](3)" classname="api.test.DDTests" time="1.251">
-    <system-out><![CDATA[Attempt 1: DELETE /user/testuser3 => 200
+  <testcase name="testDeleteUserByname[testuser3](3)" classname="api.test.DDTests" time="3.582">
+    <system-out><![CDATA[Attempt 1: DELETE /user/testuser3 => 404
+Attempt 2: DELETE /user/testuser3 => 200
 ]]></system-out>
   </testcase>
-  <testcase name="testPostStore" classname="api.test.StoreTests" time="1.338">
-    <system-out><![CDATA[Generated OrderId : 2235
-Generated OrderId : 2235
-Body:
-{
-    "id": 2235,
-    "petId": 1691,
-    "quantity": 7,
-    "shipDate": "2025-07-21T14:20:39.0369939+05:30",
-    "status": "approved",
-    "complete": true
-}
-HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:40 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
-
-{
-    "id": 2235,
-    "petId": 1691,
-    "quantity": 7,
-    "shipDate": "2025-07-21T08:50:39.036+0000",
-    "status": "approved",
-    "complete": true
-}
-HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:40 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
-
-{
-    "id": 2235,
-    "petId": 1691,
-    "quantity": 7,
-    "shipDate": "2025-07-21T08:50:39.036+0000",
-    "status": "approved",
-    "complete": true
-}
-Executing testPostStore for Order Id : 2235
-]]></system-out>
-  </testcase>
-  <testcase name="testGetStoreById" classname="api.test.StoreTests" time="14.266">
-    <system-out><![CDATA[Getting Id : 2235
-Attempt 1: GET /store/order2235=> 404
-Attempt 2: GET /store/order2235=> 404
-Attempt 3: GET /store/order2235=> 404
-Attempt 4: GET /store/order2235=> 404
-Attempt 5: GET /store/order2235=> 200
-HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:54 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
-
-{
-    "id": 2235,
-    "petId": 1691,
-    "quantity": 7,
-    "shipDate": "2025-07-21T08:50:39.036+0000",
-    "status": "approved",
-    "complete": true
-}
-Executing testGetStoreById for Order Id : 2235
-]]></system-out>
-  </testcase>
-  <testcase name="testDeleteStoreById" classname="api.test.StoreTests" time="2.43">
-    <system-out><![CDATA[Deleting Order Id : 2235
-Delete Response code : 200
+  <testcase name="testDeletePetbyId" classname="api.test.PetTests" time="2.623">
+    <system-out><![CDATA[Generated PetId : 6777
+Deleting Pet ID: 6777
+Delete Response Code: 404
 Retry #1, Status: 404
-Successfully confirmed deletion of Order Id : 2235
+Successfully confirmed deletion of Pet ID: 6777
 ]]></system-out>
   </testcase>
-  <testcase name="testPostStore" classname="api.test.StoreTests2" time="1.232">
-    <system-out><![CDATA[Generated OrderId : 3550
-Generated OrderId : 3550
+  <testcase name="testUpdatePet" classname="api.test.PetTests" time="1.342">
+    <system-out><![CDATA[Updating pet : 6777
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 6777,
+    "category": {
+        "id": 68,
+        "name": "Tools"
+    },
+    "name": "hedgehog",
+    "photoUrls": [
+        "www.kaycee-mccullough.biz"
+    ],
+    "tags": [
+        {
+            "id": 12,
+            "name": "plum"
+        }
+    ],
+    "status": "available"
+}
+Executing [MethodName] for Pet ID: 6777
+]]></system-out>
+  </testcase>
+  <testcase name="testPostPet" classname="api.test.PetTests" time="1.284">
+    <system-out><![CDATA[Generated PetId : 6777
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 6777,
+    "category": {
+        "id": 68,
+        "name": "Tools"
+    },
+    "name": "hedgehog",
+    "photoUrls": [
+        "www.kaycee-mccullough.biz"
+    ],
+    "tags": [
+        {
+            "id": 12,
+            "name": "plum"
+        }
+    ],
+    "status": "available"
+}
+Executing [MethodName] for Pet ID: 6777
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById" classname="api.test.PetTests" time="1.26">
+    <system-out><![CDATA[Getting Id : 6777
+Attempt 1: GET /pet/6777=> 200
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 6777,
+    "category": {
+        "id": 68,
+        "name": "Tools"
+    },
+    "name": "hedgehog",
+    "photoUrls": [
+        "www.kaycee-mccullough.biz"
+    ],
+    "tags": [
+        {
+            "id": 12,
+            "name": "plum"
+        }
+    ],
+    "status": "available"
+}
+Executing [MethodName] for Pet ID: 6777
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetbyId" classname="api.test.PetTests2" time="2.372">
+    <system-out><![CDATA[Generated PetId : 3151
+Deleting Pet ID: 3151
+Delete Response Code: 404
+Retry #1, Status: 404
+Successfully confirmed deletion of Pet ID: 3151
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet" classname="api.test.PetTests2" time="1.234">
+    <system-out><![CDATA[Updating pet : 3151
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 3151,
+    "category": {
+        "id": 51,
+        "name": "Kids, Movies & Music"
+    },
+    "name": "panda",
+    "photoUrls": [
+        "www.norbert-rath.net"
+    ],
+    "tags": [
+        {
+            "id": 28,
+            "name": "olive"
+        }
+    ],
+    "status": "available"
+}
+Executing [MethodName] for Pet ID: 3151
+]]></system-out>
+  </testcase>
+  <testcase name="testPostPet" classname="api.test.PetTests2" time="1.24">
+    <system-out><![CDATA[Generated PetId : 3151
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 3151,
+    "category": {
+        "id": 51,
+        "name": "Kids, Movies & Music"
+    },
+    "name": "panda",
+    "photoUrls": [
+        "www.norbert-rath.net"
+    ],
+    "tags": [
+        {
+            "id": 28,
+            "name": "olive"
+        }
+    ],
+    "status": "available"
+}
+Executing [MethodName] for Pet ID: 3151
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById" classname="api.test.PetTests2" time="1.251">
+    <system-out><![CDATA[Getting Id : 3151
+Attempt 1: GET /pet/3151=> 200
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 3151,
+    "category": {
+        "id": 51,
+        "name": "Kids, Movies & Music"
+    },
+    "name": "panda",
+    "photoUrls": [
+        "www.norbert-rath.net"
+    ],
+    "tags": [
+        {
+            "id": 28,
+            "name": "olive"
+        }
+    ],
+    "status": "available"
+}
+Executing [MethodName] for Pet ID: 3151
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[1001, Max, 10, Dog, available, 101, friendly, https://example.com/max.jpg, org.testng.TestRunner@6cb0ab1e](1)" classname="api.test.DDTestsPet" time="1.278">
+    <system-out><![CDATA[Reading cell [Row: 1, Col: 0] = 1001
+Reading cell [Row: 1, Col: 1] = Max
+Reading cell [Row: 1, Col: 2] = 10
+Reading cell [Row: 1, Col: 3] = Dog
+Reading cell [Row: 1, Col: 4] = available
+Reading cell [Row: 1, Col: 5] = 101
+Reading cell [Row: 1, Col: 6] = friendly
+Reading cell [Row: 1, Col: 7] = https://example.com/max.jpg
+Reading cell [Row: 2, Col: 0] = 1002
+Reading cell [Row: 2, Col: 1] = Bella
+Reading cell [Row: 2, Col: 2] = 20
+Reading cell [Row: 2, Col: 3] = Cat
+Reading cell [Row: 2, Col: 4] = pending
+Reading cell [Row: 2, Col: 5] = 102
+Reading cell [Row: 2, Col: 6] = cute
+Reading cell [Row: 2, Col: 7] = https://example.com/bella.jpg
+Reading cell [Row: 3, Col: 0] = 1003
+Reading cell [Row: 3, Col: 1] = Charlie
+Reading cell [Row: 3, Col: 2] = 30
+Reading cell [Row: 3, Col: 3] = Bird
+Reading cell [Row: 3, Col: 4] = sold
+Reading cell [Row: 3, Col: 5] = 103
+Reading cell [Row: 3, Col: 6] = talky
+Reading cell [Row: 3, Col: 7] = https://example.com/charlie.jpg
+Skipping blank row at Excel row index: 4
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1001,
+    "category": {
+        "id": 10,
+        "name": "Dog"
+    },
+    "name": "Max",
+    "photoUrls": [
+        "https://example.com/max.jpg"
+    ],
+    "tags": [
+        {
+            "id": 101,
+            "name": "friendly"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[1002, Bella, 20, Cat, pending, 102, cute, https://example.com/bella.jpg, org.testng.TestRunner@6cb0ab1e](2)" classname="api.test.DDTestsPet" time="1.227">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1002,
+    "category": {
+        "id": 20,
+        "name": "Cat"
+    },
+    "name": "Bella",
+    "photoUrls": [
+        "https://example.com/bella.jpg"
+    ],
+    "tags": [
+        {
+            "id": 102,
+            "name": "cute"
+        }
+    ],
+    "status": "pending"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[1003, Charlie, 30, Bird, sold, 103, talky, https://example.com/charlie.jpg, org.testng.TestRunner@6cb0ab1e](3)" classname="api.test.DDTestsPet" time="1.199">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:16 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1003,
+    "category": {
+        "id": 30,
+        "name": "Bird"
+    },
+    "name": "Charlie",
+    "photoUrls": [
+        "https://example.com/charlie.jpg"
+    ],
+    "tags": [
+        {
+            "id": 103,
+            "name": "talky"
+        }
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[org.testng.TestRunner@6cb0ab1e](1)" classname="api.test.DDTestsPet" time="6.792">
+    <system-out><![CDATA[Deleting Pet ID: 1003
+Retry #1 - Status: 200
+Retry #2 - Status: 200
+Retry #3 - Status: 404
+]]></system-out>
+  </testcase>
+  <testcase name="testPostStore" classname="api.test.StoreTests" time="1.299">
+    <system-out><![CDATA[Generated OrderId : 8652
+Generated OrderId : 8652
 Body:
 {
-    "id": 3550,
-    "petId": 2764,
-    "quantity": 9,
-    "shipDate": "2025-07-21T14:20:58.3158645+05:30",
-    "status": "approved",
+    "id": 8652,
+    "petId": 9070,
+    "quantity": 1,
+    "shipDate": "2025-07-21T15:28:25.0967746+05:30",
+    "status": "placed",
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:59 GMT
+Date: Mon, 21 Jul 2025 09:58:26 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -313,15 +565,15 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 3550,
-    "petId": 2764,
-    "quantity": 9,
-    "shipDate": "2025-07-21T08:50:58.315+0000",
-    "status": "approved",
+    "id": 8652,
+    "petId": 9070,
+    "quantity": 1,
+    "shipDate": "2025-07-21T09:58:25.096+0000",
+    "status": "placed",
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:50:59 GMT
+Date: Mon, 21 Jul 2025 09:58:26 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -331,21 +583,22 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 3550,
-    "petId": 2764,
-    "quantity": 9,
-    "shipDate": "2025-07-21T08:50:58.315+0000",
-    "status": "approved",
+    "id": 8652,
+    "petId": 9070,
+    "quantity": 1,
+    "shipDate": "2025-07-21T09:58:25.096+0000",
+    "status": "placed",
     "complete": true
 }
-Executing testPostStore for Order Id : 3550
+Executing testPostStore for Order Id : 8652
 ]]></system-out>
   </testcase>
-  <testcase name="testGetStoreById" classname="api.test.StoreTests2" time="1.213">
-    <system-out><![CDATA[Getting Id : 3550
-Attempt 1: GET /store/order3550=> 200
+  <testcase name="testGetStoreById" classname="api.test.StoreTests" time="4.385">
+    <system-out><![CDATA[Getting Id : 8652
+Attempt 1: GET /store/order8652=> 404
+Attempt 2: GET /store/order8652=> 200
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:00 GMT
+Date: Mon, 21 Jul 2025 09:58:30 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -355,25 +608,109 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 3550,
-    "petId": 2764,
-    "quantity": 9,
-    "shipDate": "2025-07-21T08:50:58.315+0000",
-    "status": "approved",
+    "id": 8652,
+    "petId": 9070,
+    "quantity": 1,
+    "shipDate": "2025-07-21T09:58:25.096+0000",
+    "status": "placed",
     "complete": true
 }
-Executing testGetStoreById for Order Id : 3550
+Executing testGetStoreById for Order Id : 8652
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteStoreById" classname="api.test.StoreTests2" time="4.671">
-    <system-out><![CDATA[Deleting Order Id : 3550
+  <testcase name="testDeleteStoreById" classname="api.test.StoreTests" time="4.64">
+    <system-out><![CDATA[Deleting Order Id : 8652
 Delete Response code : 404
 Retry #1, Status: 200
 Retry #2, Status: 404
-Successfully confirmed deletion of Order Id : 3550
+Successfully confirmed deletion of Order Id : 8652
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateOrder[1001, 12, 3, 2025-07-18T13:10:00Z, placed, TRUE, org.testng.TestRunner@138c2ba](1)" classname="api.test.DDTestsStore" time="1.268">
+  <testcase name="testPostStore" classname="api.test.StoreTests2" time="1.345">
+    <system-out><![CDATA[Generated OrderId : 8135
+Generated OrderId : 8135
+Body:
+{
+    "id": 8135,
+    "petId": 9647,
+    "quantity": 5,
+    "shipDate": "2025-07-21T15:28:36.6827647+05:30",
+    "status": "placed",
+    "complete": true
+}
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 8135,
+    "petId": 9647,
+    "quantity": 5,
+    "shipDate": "2025-07-21T09:58:36.682+0000",
+    "status": "placed",
+    "complete": true
+}
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 8135,
+    "petId": 9647,
+    "quantity": 5,
+    "shipDate": "2025-07-21T09:58:36.682+0000",
+    "status": "placed",
+    "complete": true
+}
+Executing testPostStore for Order Id : 8135
+]]></system-out>
+  </testcase>
+  <testcase name="testGetStoreById" classname="api.test.StoreTests2" time="7.791">
+    <system-out><![CDATA[Getting Id : 8135
+Attempt 1: GET /store/order8135=> 404
+Attempt 2: GET /store/order8135=> 404
+Attempt 3: GET /store/order8135=> 200
+HTTP/1.1 200 OK
+Date: Mon, 21 Jul 2025 09:58:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 8135,
+    "petId": 9647,
+    "quantity": 5,
+    "shipDate": "2025-07-21T09:58:36.682+0000",
+    "status": "placed",
+    "complete": true
+}
+Executing testGetStoreById for Order Id : 8135
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteStoreById" classname="api.test.StoreTests2" time="2.309">
+    <system-out><![CDATA[Deleting Order Id : 8135
+Delete Response code : 200
+Retry #1, Status: 404
+Successfully confirmed deletion of Order Id : 8135
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateOrder[1001, 12, 3, 2025-07-18T13:10:00Z, placed, TRUE, org.testng.TestRunner@6cb0ab1e](1)" classname="api.test.DDTestsStore" time="1.183">
     <system-out><![CDATA[Reading cell [Row: 1, Col: 0] = 1001
 Reading cell [Row: 1, Col: 1] = 12
 Reading cell [Row: 1, Col: 2] = 3
@@ -402,7 +739,7 @@ Body:
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:07 GMT
+Date: Mon, 21 Jul 2025 09:58:49 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -420,7 +757,7 @@ Server: Jetty(9.2.9.v20150224)
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:07 GMT
+Date: Mon, 21 Jul 2025 09:58:49 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -439,7 +776,7 @@ Server: Jetty(9.2.9.v20150224)
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateOrder[1002, 34, 1, 2025-07-18T15:30:00Z, delivered, FALSE, org.testng.TestRunner@138c2ba](2)" classname="api.test.DDTestsStore" time="1.188">
+  <testcase name="testCreateOrder[1002, 34, 1, 2025-07-18T15:30:00Z, delivered, FALSE, org.testng.TestRunner@6cb0ab1e](2)" classname="api.test.DDTestsStore" time="1.234">
     <system-out><![CDATA[Body:
 {
     "id": 1002,
@@ -450,7 +787,7 @@ Server: Jetty(9.2.9.v20150224)
     "complete": false
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:09 GMT
+Date: Mon, 21 Jul 2025 09:58:51 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -468,7 +805,7 @@ Server: Jetty(9.2.9.v20150224)
     "complete": false
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:09 GMT
+Date: Mon, 21 Jul 2025 09:58:51 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -487,7 +824,7 @@ Server: Jetty(9.2.9.v20150224)
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateOrder[1003, 56, 5, 2025-07-19T09:00:00+05:30, approved, TRUE, org.testng.TestRunner@138c2ba](3)" classname="api.test.DDTestsStore" time="1.218">
+  <testcase name="testCreateOrder[1003, 56, 5, 2025-07-19T09:00:00+05:30, approved, TRUE, org.testng.TestRunner@6cb0ab1e](3)" classname="api.test.DDTestsStore" time="1.216">
     <system-out><![CDATA[Body:
 {
     "id": 1003,
@@ -498,7 +835,7 @@ Server: Jetty(9.2.9.v20150224)
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:10 GMT
+Date: Mon, 21 Jul 2025 09:58:52 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -516,7 +853,7 @@ Server: Jetty(9.2.9.v20150224)
     "complete": true
 }
 HTTP/1.1 200 OK
-Date: Mon, 21 Jul 2025 08:51:10 GMT
+Date: Mon, 21 Jul 2025 09:58:52 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -535,7 +872,7 @@ Server: Jetty(9.2.9.v20150224)
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteOrderById[org.testng.TestRunner@138c2ba](1)" classname="api.test.DDTestsStore" time="2.416">
+  <testcase name="testDeleteOrderById[org.testng.TestRunner@6cb0ab1e](1)" classname="api.test.DDTestsStore" time="2.35">
     <system-out><![CDATA[Deleting Order Id : 1003
 Retry #1 - Status: 404
 Final status after deletion retries: 404

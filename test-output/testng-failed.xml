@@ -11,6 +11,12 @@
           <include name="testDeleteOrderById" invocation-numbers="0"/>
         </methods>
       </class> <!-- api.test.DDTestsStore -->
+      <class name="api.test.StoreTests">
+        <methods>
+          <include name="testGetStoreById"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- api.test.StoreTests -->
     </classes>
   </test> <!-- PetTests(failed) -->
 </suite> <!-- Failed suite [PetSuite] -->
